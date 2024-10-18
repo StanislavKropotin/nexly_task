@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ```bash
 
-python pipeline.py report.pdf --config config.yaml --company_name "Bluegem III GP SARL" --date "2023-12-31"
+python main.py report.pdf --config config.yaml --company_name "Bluegem III GP SARL" --date "2023-12-31"
 
 ```
 
@@ -46,7 +46,7 @@ Output:
 
 ```bash
 
-python pipeline.py report.pdf --config config.yaml  --company_name "no name" --date "2025-12-31"
+python main.py report.pdf --config config.yaml --company_name "no name" --date "2025-12-31"
 
 ```
 
