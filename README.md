@@ -79,3 +79,15 @@ It records information about successful operations and warnings or errors when i
 This helps users understand what happened during the execution, making troubleshooting and monitoring easier. 
 
 Logs are saved to a file and also displayed on the console for real-time updates.
+
+## Project structure:
+
+1) extractors.py contains classes for extracting data from PDFs.
+
+2) validators.py contains classes for validating extracted data.
+
+3) pipeline.py contains the main logic of the validation pipeline.
+
+4) utils.py contains utility functions, such as loading configuration.
+
+5) main.py is the entry point of the program, handling command-line arguments and running the pipeline.
