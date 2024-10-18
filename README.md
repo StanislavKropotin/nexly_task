@@ -1,1 +1,1 @@
-# PDF Data Validation Pipeline
+PDF Data Validation Pipeline
